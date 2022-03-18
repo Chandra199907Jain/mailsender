@@ -18,7 +18,7 @@ public class SendingmailApplication {
 	@EventListener(ApplicationReadyEvent.class)
 	public void triggerMail()
 	{
-		service.sendSimpleEmail("chandrachoraria070@gmail.com","This is a test mail sent using Spring Boot Programming", "TestMail");
+		service.sendSimpleEmail("chandrachoraria07@gmail.com","shakshilakhotia6@gmail.com","This is a test mail sent using Spring Boot Programming", "Test Mail");
 	}
 
 }
